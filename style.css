@@ -1,0 +1,46 @@
+.header {
+    
+    height: 500px;
+    margin: 0px;
+    border: 0px;
+}
+
+.header .top {
+    background: red;
+}
+
+.header .bottom {
+    background: green;
+}
+
+.header .top .logo {
+
+}
+
+.header .top .link {
+
+}
+
+.bottom img {
+    
+}
+
+.random {
+    background: blue;
+    height: 400px;
+}
+
+.quote {
+    background: pink;
+    height: 300px;
+}
+
+.call {
+    background: orange;
+    height: 300px;
+}
+
+.footer {
+    background: purple;
+    height: 300px;
+}
