@@ -92,8 +92,8 @@ body {
     font-size: 18px;
     font-weight: bold;
     background: #3882F6;
-    border-radius: 8px;
-    margin: 0px;
+    border-radius: 10px;
+    margin: 5px;
     border: 0px;
 }
 
@@ -114,6 +114,52 @@ body {
     border: 0px;
     padding: 0px;
     background: white;
+}
+
+.random .top {
+    height: 120px;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.random .middle {
+    margin: 0px;
+    height: 150px;
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.random .middle .item {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.random .bottom {
+    margin: 0px;
+    height: 150px;
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+    align-items: top;
+    gap:20px;
+}
+
+.random .bottom .item {
+    height: 150px;
+    width: 150px;
+    flex: 1;
+    color: #1F2937;
 }
 
 .quote {
