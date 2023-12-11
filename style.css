@@ -1,7 +1,7 @@
 
 
-/*
 
+/*
 * {
     border: 1px solid red;
 } 
@@ -166,16 +166,86 @@ body {
     height: 400px;
     margin: 0px;
     border: 0px;
-    padding: 0px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
     background: #E5E7EB;
+    color: #1F2937;
+    align-items: center;
+}
+
+.quote .top {
+    font-size: 36px;
+    font-weight: light;
+}
+
+.quote .bottom {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .call {
-    height: 300px;
     margin: 0px;
     border: 0px;
-    padding: 0px;
     background: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.call .box {
+    height: 150px;
+    display: flex;
+    background: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.call .box .top {
+    flex: 3;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    white-space: nowrap;
+}
+
+.call .box .top .bold {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.call .box .top .light {
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.call .box .bottom {
+    flex: 1;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: right;
+    align-items: center;
+}
+
+.call .box .bottom button {
+    color: #F9FAF8;
+    font-size: 18px;
+    height: 40px;
+    width: 120px;
+    background: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    align-self: right;
 }
 
 .footer {
