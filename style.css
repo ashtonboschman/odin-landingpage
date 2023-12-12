@@ -249,9 +249,12 @@ body {
 }
 
 .footer {
-    height: 100px;
+    height: 50px;
     margin: 0px;
     border: 0px;
-    padding: 0px;
+    padding: 25px;
     background: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
 }
